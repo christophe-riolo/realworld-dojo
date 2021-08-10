@@ -1,5 +1,3 @@
-> *Note: Delete this file before publishing your app!*
-
 ### Using the hosted API
 
 Simply point your [API requests](https://github.com/gothinkster/realworld/tree/master/api) to `https://conduit.productionready.io/api` and you're good to go!
@@ -527,3 +525,16 @@ Alternatively, if you want to make modifications to the theme, check out the [th
 
 </div>
 ```
+
+We've gone to great lengths to adhere to the **[YOUR_FRAMEWORK]** community styleguides & best practices.
+
+For more information on how to this works with other frontends/backends, head over to the [RealWorld](https://github.com/gothinkster/realworld) repo.
+
+# How it works
+
+> Describe the general architecture of your app here
+
+# Getting started
+
+> npm install, npm start, etc.
+
