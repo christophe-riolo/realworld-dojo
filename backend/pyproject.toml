@@ -1,0 +1,21 @@
+[tool.poetry]
+name = "realworld-backend"
+version = "0.1.0"
+description = "Implementation of Realworld with Connexion and FastAPI"
+authors = ["Christophe Riolo <christophe.riolo@qvik.fi>"]
+license = "OSI Approved :: MIT License"
+
+[tool.poetry.dependencies]
+python = "^3.9"
+connexion = "^2.9.0"
+fastapi = "^0.68.0"
+aiosql = "^3.3.1"
+
+[tool.poetry.dev-dependencies]
+flake8 = "^3.9.2"
+wemake-python-styleguide = "^0.15.3"
+twisted-ipython = "^2.0.0"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
