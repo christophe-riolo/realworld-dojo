@@ -10,11 +10,14 @@ python = "^3.9"
 connexion = "^2.9.0"
 fastapi = "^0.68.0"
 aiosql = "^3.3.1"
+yoyo-migrations = "^7.3.2"
+psycopg2 = "^2.9.1"
 
 [tool.poetry.dev-dependencies]
 flake8 = "^3.9.2"
 wemake-python-styleguide = "^0.15.3"
 twisted-ipython = "^2.0.0"
+mypy = "^0.910"
 
 [build-system]
 requires = ["poetry-core>=1.0.0"]
