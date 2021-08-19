@@ -7,7 +7,7 @@ license = "OSI Approved :: MIT License"
 
 [tool.poetry.dependencies]
 python = "^3.9"
-connexion = "^2.9.0"
+connexion = {extras = ["swagger-ui"], version = "^2.9.0"}
 fastapi = "^0.68.0"
 aiosql = "^3.3.1"
 yoyo-migrations = "^7.3.2"
